@@ -20,18 +20,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html, body {
-    background-color: #ddd;
+    background-color: var(--bg-gray);
 }
 
 header {
-    background-color: black;
-    color: #fff;
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
 }
 
 a, a:hover {
@@ -42,6 +55,10 @@ a, a:hover {
 .dsmovie-contact-container {
     display: flex;
     align-items: center;
+}
+
+.dsmovie-contact-container img {
+    margin-right: 10px;
 }
 
 
